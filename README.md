@@ -4,7 +4,7 @@ Java 8 or later
 ```
 
 ## Using a generated executable jar
-##### Generate executable jar
+#### Generate executable jar
 
 Use gradle to compile and create the executable jar
 
@@ -13,20 +13,30 @@ Use gradle to compile and create the executable jar
    > gradlew bootJar
 ```
 
-##### Location of the generated jar
+#### Location of the generated jar
 ```
 	[root project directory]\build\libs
 ```
 
-##### How to run
+#### How to run
 
 ```
 	- cd [root project directory]\build\libs
 	- java -jar card-game-0.0.1-SNAPSHOT.jar
 
 ```
+##### Note:
 
-## Using gradle the application
+Default server port is 8080.
+
+If you want to use a different port, add the server.port argument and specify the port you want to use
+
+```
+	- java -jar card-game-0.0.1-SNAPSHOT.jar --server.port=[your port number]
+
+```
+
+## Using gradle the application 
 
 ```
    > cd [root project directory]
@@ -41,7 +51,7 @@ gradlew testshttp://localhost:8080/swagger-ui/index.html#/
 
 Documentation on the endpoints and instructions can also be found there
 
-# Note
+#### Note:
 
 Default server port is 8080.
 
