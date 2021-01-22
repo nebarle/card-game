@@ -41,7 +41,7 @@ gradlew testshttp://localhost:8080/swagger-ui/index.html#/
 
 Documentation on the endpoints and instructions can also be found there
 
-#Note
+##Note
 
 Default server port is 8080.
 
